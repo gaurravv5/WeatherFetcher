@@ -6,4 +6,4 @@ require_once(__ROOT__.'/WeatherFetcher/src/FetchWeather.php');
 
 $fw = new FetchWeather();
 
-$fw->fetchAndSave("London", $dbh);
+$fw->fetchAndSave($dbh,"London");
