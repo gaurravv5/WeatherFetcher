@@ -1,0 +1,1 @@
+ */3 * * * * php {path-to-project-file-index.php}
